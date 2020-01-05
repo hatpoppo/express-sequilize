@@ -1,10 +1,10 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "database_development",
+    "username": "YURE DB USERNAME",
+    "password": "YURE DB PASSWORD",
+    "database": "YURE DB DATABASE",
     "host": "127.0.0.1",
-    "dialect": "mysql",
+    "dialect": "YURE DB",
     "operatorsAliases": false
   },
   "test": {
