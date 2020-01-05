@@ -17,6 +17,14 @@ npx sequelize-cli init
 npm i pg pg-hstore
 ```
 
+#### DB 設定ファイルは含まれていません
+
+`npx sequelize-cli init'で生成される「config/config.json」ファイルは含まれていません。各自の環境に合わせて編集する必要があります。
+
+#### postgres を利用しているのは
+
+`npm i pg pg-hstore`は私が構築した環境に postgres が存在したことと利用実績があるためです。各自の環境に合わせて必要なモジュールをインストールしてください。
+
 ### sequelize-cli でモデル作成
 
 ```
