@@ -1,6 +1,29 @@
-expressとsequelizeを連携させる最小のアプリケーションを作成
+express と sequelize を連携させる最小のアプリケーションを作成
 
-[こちら](https://github.com/sequelize/express-example)を参考に2020/01/05に試してみました。
+[こちら](https://github.com/sequelize/express-example)を参考に 2020/01/05 に試してみました。
+
+### express インストール
+
+```
+npx express-generator
+npm install
+```
+
+### sequelize インストール
+
+```
+npm i sequelize sequelize-cli
+npx sequelize-cli init
+npm i pg pg-hstore
+```
+
+### sequelize-cli でモデル作成
+
+```
+npx sequelize-cli model:generate --name User --attributes username:string
+npx sequelize-cli model:generate --name Task --attributes title:string
+npm start
+```
 
 ## Available Scripts
 
