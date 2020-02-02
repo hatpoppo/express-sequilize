@@ -1,6 +1,8 @@
 express と sequelize を連携させる最小のアプリケーションを作成
 
-[こちら](https://github.com/sequelize/express-example)を参考に 2020/01/05 に試してみました。
+[こちら](https://github.com/sequelize/express-example)を参考にしました。
+2020/01/05 に試してみました。
+2020/02/02 　に vulnerability のセキュリティーエラーに対応しました。
 
 ### express インストール
 
