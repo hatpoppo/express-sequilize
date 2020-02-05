@@ -34,7 +34,7 @@ npm i pg pg-hstore
 ```
 npx sequelize-cli model:generate --name User --attributes username:string
 npx sequelize-cli model:generate --name Task --attributes title:string
-npm start
+npx sequelize-cli db:migrate
 ```
 
 ## Available Scripts
